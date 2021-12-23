@@ -1,4 +1,5 @@
 <?php
 	$a = 'Code on Master branch';
-	echo $a;
+	$b = 'Code on Another branch';
+	echo nl2br ("$a \n $b");
 ?>
